@@ -1,5 +1,6 @@
 from confluent_kafka import Consumer
 
+
 def main():
     consumer = Consumer({
         'bootstrap.servers': 'localhost:9092',
