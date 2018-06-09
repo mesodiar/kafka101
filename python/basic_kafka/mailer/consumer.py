@@ -8,7 +8,7 @@ from send_mail import send_mail
 def main():
     consumer = Consumer({
         'bootstrap.servers': 'localhost:9092',
-        'group.id': 'GMAIL',
+        'group.id': 'send_mail',
         'default.topic.config': {
             'auto.offset.reset': 'earliest'
         }
